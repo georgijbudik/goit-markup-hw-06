@@ -462,6 +462,10 @@ textarea {
   fill: var(--bg-icon-color);
 }
 
+.checkbox-input:focus + .checkbox-icon {
+  outline: 1px solid black;
+}
+
 .accept-icon {
   fill: var(--primary-white-color);
 
