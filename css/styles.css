@@ -458,12 +458,13 @@ textarea {
   border-color: transparent;
 }
 
-.checkbox-input:checked + .checkbox-icon > .accept-icon {
+.checkbox-input:checked + * .accept-icon {
   fill: var(--bg-icon-color);
 }
 
+.checkbox-input:checked:focus + .checkbox-icon,
 .checkbox-input:focus + .checkbox-icon {
-  outline: 1px solid black;
+  outline: 2px solid black;
 }
 
 .accept-icon {
